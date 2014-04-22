@@ -97,6 +97,26 @@ Pruebas con js
 	
 	console.clear();
 	
+	var miobjeto=
+	{
+		nombre: "Juan",
+		edad: 30,
+		mostrarnombre: function()
+		{
+			console.log(miobjeto.nombre);
+		},
+		cambiarnombre: function(nuevonombre)
+		{
+			miobjeto.nombre=nuevonombre;
+		}
+	}
+	
+	miobjeto.mostrarnombre();
+	miobjeto.cambiarnombre('Jonathan');
+	miobjeto.mostrarnombre();
+	
+	console.clear();
+	
 	
 </script>
 </html>
