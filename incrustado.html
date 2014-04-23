@@ -1,0 +1,30 @@
+<!DOCYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Incrustado</title>
+	<link rel="stylesheet" href="estilos.css"/>
+	<script>
+		function hazclic()
+		{
+			var elem=document.getElementsByTagName('p')[0];
+			elem.addEventListener('click', mostrarAlerta);
+		}
+
+		function mostrarAlerta()
+		{
+			alert('¡Has hecho clic!');
+		}
+
+		addEventListener('load', hazclic);
+	</script>
+</head>
+
+<body>
+	<section>
+		<p id="presionar">Pulsa aquí</p>
+		<p>Aquí no puedes pulsar</p>
+	</section>
+</body>
+</html>
