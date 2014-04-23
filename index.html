@@ -1,137 +1,14 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<title>
-Pruebas con js
-</title>
+	<title>indice</title>
 </head>
-<script>
-	/*1% inspiración, 99% transpiración*/
-	
-	var minumero=2;
-	/*alert(minumero);*/
-	var mitexto="¡Hola a todos!";
-	/*alert(mitexto);*/
-	
-	/*
-	var i;
-
-	for(i=0; i<10; i++)
-	{
-		console.log("El valor de i es: " + i);
-	}*/
-
-	var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
-	var meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
-	
-	console.log("Los días de la semana:");
-	
-	for(e=0; e<7; e++)
-	{
-		console.log(dias[e]);
-	}
-	
-	console.log("\nLos meses del año:");
-	
-	for(e=0; e<12; e++)
-	{
-		console.log(meses[e]);
-	}
-	
-	console.clear();
-	
-	var numero=10;
-	
-	if(numero==10)
-	{
-		console.log("El valor del número es diez.");
-	}
-	else
-	{
-		console.log("Es otro número.");
-	}
-	
-	console.clear();
-	
-	var miobjeto=
-	{
-		nombre: "Ricardo",
-		edad: 30
-	}
-	
-	console.log("Mi nombre es: " + miobjeto.nombre);
-	console.log("Yo tengo: " + miobjeto['edad'] + " años");
-	
-	console.clear();
-	
-	var otroobj=
-	{
-		r:"robot",
-		i:"invicto",
-		c:"cardiaco",
-		a:"abeja",
-		r2:"rompope",
-		d:"dedo",
-		o:"obscuro"
-	}
-	
-	console.log(otroobj.o);
-	console.log(otroobj.d);
-	console.log(otroobj.r2);
-	console.log(otroobj.a);
-	console.log(otroobj.c);
-	console.log(otroobj.i);
-	console.log(otroobj.r);
-	
-	console.clear();
-	
-	console.log(otroobj['o']);
-	console.log(otroobj['d']);
-	console.log(otroobj['r2']);
-	console.log(otroobj['a']);
-	console.log(otroobj['c']);
-	console.log(otroobj['i']);
-	console.log(otroobj['r']);
-	
-	console.clear();
-	
-	var miobjeto=
-	{
-		nombre: "Juan",
-		edad: 30,
-		mostrarnombre: function()
-		{
-			console.log(miobjeto.nombre);
-		},
-		cambiarnombre: function(nuevonombre)
-		{
-			miobjeto.nombre=nuevonombre;
-		}
-	}
-	
-	miobjeto.mostrarnombre();
-	miobjeto.cambiarnombre('Jonathan');
-	miobjeto.mostrarnombre();
-	
-	console.clear();
-
-	/*
-	var tiempo;
-
-	tiempo=setInterval
-	(
-		function()
-		{
-			console.log("Hola");
-		},
-
-		2000
-	);
-	*/
-	
-	clearInterval();
-
-</script>
+<body>
+	<ul>
+		<li><a href="consola.html">Consola</a></li>
+		<li><a href="onclic.html">Onclic</a></li>
+		<li><a href="incrustado.html">Incrustado</a></li>
+		<li><a href="externo.html">Externo</a></li>
+	</ul>
+</body>
 </html>
